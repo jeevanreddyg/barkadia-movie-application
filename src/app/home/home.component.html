@@ -1,0 +1,14 @@
+ <div class="app-content">
+    <md-card>
+      <md-grid-list cols="4" >
+        <md-grid-tile>
+            <figure>
+                <img src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/{{movies?.poster_path}}" width="100%" height="100%">
+            </figure>
+            <md-grid-tile-footer>
+                <a href="https://www.themoviedb.org/movie/{{movies?.id}}"> {{movies?.title}} </a> 
+            </md-grid-tile-footer>
+        </md-grid-tile>
+       </md-grid-list>
+    </md-card>
+  </div>
